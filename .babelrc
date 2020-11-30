@@ -1,0 +1,8 @@
+{
+    "presets": [        
+        ["@babel/preset-env", {
+            "shippedProposals": true //enables class properties.
+        }], "@babel/preset-react"
+    ]
+
+}

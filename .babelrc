@@ -1,8 +1,16 @@
 {
     "presets": [        
         ["@babel/preset-env", {
+            "useBuiltIns": "entry", 
+            "corejs": {"version": 2, "proposals": true}, 
             "shippedProposals": true //enables class properties.
         }], "@babel/preset-react"
+    ],
+    "plugins": [
+        ["@babel/plugin-transform-runtime",
+          {
+            "regenerator": true
+          }
+        ]
     ]
-
 }

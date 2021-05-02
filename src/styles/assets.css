@@ -1,0 +1,7 @@
+.code {
+    color: rgb(var(--c-acc-blue));
+    font-family: 'Courier New', Courier, monospace;
+}
+.highlight {
+    color: rgb(var(--c-acc-orange));
+}

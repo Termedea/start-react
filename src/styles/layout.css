@@ -1,0 +1,7 @@
+:root {
+    --content-width: 65vw;
+    --screen-sm: 340px;
+    --screen-md: 420px;
+    --screen-lg: 700px;
+    --screen-xl: 1200px;
+}

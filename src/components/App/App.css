@@ -1,0 +1,5 @@
+.App {
+    width: var(--content-width);
+    margin: 10em auto;
+    height: 100vh;
+}

@@ -1,0 +1,4 @@
+body {
+    background: rgb(var(--c-main));
+    color: rgb(var(--c-off));
+}

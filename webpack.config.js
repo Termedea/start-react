@@ -44,6 +44,7 @@ module.exports = {
         contentBase: path.join(__dirname, 'public'),
         compress: true,
         hot: true,
-        port: 3001
+        port: 3001,
+        open: true
     }
 };
